@@ -1,0 +1,22 @@
+.baslik{
+    color: green ;
+}
+
+h1{
+    color: rgb(215, 13, 141) ;
+}
+
+*{
+    color: aqua ;
+}
+
+h1.baslik{
+    color: brown ;
+}
+
+h2.baslik.renk{
+    color:black
+}
+
+
+/* burada en alt satır head içinde en alta gelir body kısmına en yakın yerdir */

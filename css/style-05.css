@@ -1,0 +1,29 @@
+*{
+    font-size: 0.9rem;
+    color: khaki;
+    background-color: orangered;
+}
+
+/*  seciçi olarak . ile secilir tag içine de class ismi ile belirtiri */
+/* seciçi olarak # kullanırsak tag içine id ismi veririz*/
+.highlight{
+    font-size: 1.2rem;
+
+    color: aqua;
+}
+
+.center{
+    text-align: center;
+}
+h1.center{
+ background-color: rgb(17, 13, 12);
+
+}
+
+.right{
+    text-align: right;
+}
+#p1{
+    text-align:justify;
+    color: black;
+}
