@@ -1,0 +1,35 @@
+
+body{
+/*font-family: 'Nunito Sans', sans-serif;*/
+font-family: 'Roboto', sans-serif;
+}
+
+nav.main-menu{
+  background-color: gray;
+}
+
+.main-menu-ul{
+  list-style-type: '🔹';
+  padding: 0;
+  list-style-position: inside;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.main-menu-link:hover {
+  color: rgb(254, 254, 254);
+  background-color: rgb(129, 85, 94);
+  font-weight: 400;
+}
+.main-menu-link{
+/* inline element olduğu için yandan mesafe alır ust alt almaz */
+  padding: 10px;
+}
+
+
+
+

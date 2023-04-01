@@ -1,0 +1,23 @@
+.kutu1{
+    background-color: blue;
+    margin: 10px
+}
+.kutu2{
+    margin: 10px;
+    padding: 50px;
+    background-color: burlywood;
+}
+
+.kutu3{
+    margin: 10px 50px 50px 200px;
+    background-color: aqua;
+    padding: 50px 90px;
+    /* 4 deger girerken ust-sag-alt-sol olarak girilir */
+    /* 2 li deger de dikey - yatay olarak deger alır */
+
+}
+em{
+    padding: 50px;
+    /* inline elementler sadece yatay olarak padding ve margin alır */
+    background-color: darkgreen;
+}

@@ -1,0 +1,42 @@
+.kutu1{
+    background-color: blue;
+    width: 2cm;
+    height: 200px
+        /* body nın yuksekliği yoktur o yuzden % gecersiz
+        ama  piksel olarak kabul eder */
+
+}
+
+.kutu2{
+background-color: blueviolet;
+width: 250px;
+}
+
+.kutu3{
+    background-color: rgb(133, 195, 39);
+    width: 50%;
+    height: 300px;
+    font-size: 2em;
+    }
+
+    .kutu4{
+        background-color: rgb(219, 29, 102);
+        width: 50%;
+        height: 50%;
+        /* burada alır cunku parent yukseklik degeri var 
+         bu şekilde geçerli olur */
+         font-size: 2em;
+        }
+
+    .kutu5{
+
+        background-color: coral;
+        width: 50vw;
+        /* vw parent dinlemez genel cerceve uzerinden deger alır 
+        cıkıntı kutu3 deki body nin maginini de hesaplamaz dısındakı cerceveyi baz alır */
+        height: 20vw;
+        /*  yukseklikte aynı viewportu baz alır  */
+        font-size: 2rem;  /* vw mantığı olarak rem de genel html size a gore ayarlar*/
+
+    }
+
