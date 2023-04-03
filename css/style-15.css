@@ -1,0 +1,31 @@
+body{
+    font-size:x-large;
+}
+
+.kutu1{
+    background-color: aqua;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.kutu2{
+    background-color: rgb(109, 128, 128);
+}
+
+.kutu3{
+    background-color: rgb(139, 226, 17);
+    padding-right: 15px;
+}
+
+.kutu4{
+    background-color: rgb(94, 49, 240);
+    width: 150px;
+/* ne tarafa hızlama yapacak isek 0 yaparız     */
+    margin-right: 0;
+    margin-left: auto;
+    
+/* ortaya almak için bu şekilde kullnaılır
+    margin-left: auto;
+    margin-right: auto; */
+
+}
