@@ -1,0 +1,18 @@
+.title{
+
+    background-color: blue;
+    display: inline;
+    /* display  padding işlmeni kabul etmez
+    ama inline-block  olarak kullanırsak padding margin kullanılabilir*/
+    padding: 40px;
+    display: inline-block;
+
+}
+em{
+    background-color: red;
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
