@@ -1,0 +1,42 @@
+.login-form input[type="text"]{
+    /* attribute ozelliğine iniyoruz[] ile */
+    background-color: aqua;
+    padding: 10px 10px;
+}
+
+.login-form input[type="text"]:focus{
+    background-color: blue;
+}
+.chk-menu:checked{
+    outline: 3px solid red;
+}
+a:active{
+    background-color: chartreuse;
+}
+
+ul.liste li:first-child{
+    font-weight: bold;
+
+}
+
+ul.liste li:last-child{
+    font-style: italic;
+}
+ul.liste li:nth-child(3){
+    color: darkgoldenrod;
+}
+
+.price-list tr:nth-child(even){
+    background-color: yellowgreen;
+    
+}
+.price-list tr:nth-child(odd){
+    background-color: greenyellow;
+}
+.price-list tr:nth-child(3n+3){
+    background-color: rgb(47, 255, 234);
+}
+.price-list{
+    margin: auto;
+}
+

@@ -1,0 +1,45 @@
+
+p.about::first-letter{
+ font-size: 1.5rem;
+}
+p.about::first-line{
+    font-weight: bold;
+    color: goldenrod;
+}
+
+p.about::selection{
+    background-color: darkolivegreen;
+
+}
+
+.list li::marker{
+    color: blue;
+    list-style-position: inside;
+    font-size: larger;
+}
+
+.title::before{
+    content: "<";
+    color:royalblue;
+
+}
+.title::after{
+    content: "";
+    background-color: red;
+    display: inline-block;
+    width: 10px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.about span::before{
+    color: red;
+    content: "{ ";
+        font-weight: bolder;
+}
+.about span::after{
+    color: red;
+    content: " }";
+    font-weight:bold;
+
+}
