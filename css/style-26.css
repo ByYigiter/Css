@@ -1,0 +1,29 @@
+nav.menu li{
+    color: purple;
+}
+
+nav.menu >ul>li{
+    color:cyan;
+}
+
+nav.menu ul ul>li{
+    color: darkblue;
+}
+
+nav.menu ul ul>li:last-child{
+    color: rgb(236, 13, 13);
+}
+
+nav.menu +p{
+    /* nav.menu kapandıktan hemen sonraki ilk p ye git diyoruz*/
+    font-size: 1.4rem;
+}
+
+nav.menu +p ~p{
+    /*nav.menu kapandıktan hemen sonra olmasada olur arada farklı
+     tag olsada atlar ve işlemi yapar*/
+    color: coral;
+}
+nav.menu >ul>li:nth-child(4)~li{
+    color: fuchsia;
+}

@@ -1,0 +1,7 @@
+.mode:checked + .content{
+    color: blue;
+    background-color: burlywood;
+}
+.mode{
+    display: none;
+}
