@@ -1,0 +1,32 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid blue;
+    height: 50vh;
+    align-items: stretch;
+}
+.container div{
+    width: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
+   
+
+}
+.container div:nth-child(1){
+    background-color: aquamarine;
+}
+.container div:nth-child(2){
+    background-color: rgb(24, 57, 46);
+}
+.container div:nth-child(3){
+    background-color: rgb(76, 41, 201);
+}
+.container div:nth-child(4){
+    background-color: rgb(209, 41, 80);
+}
+.container div:nth-child(5){
+    background-color: rgb(169, 227, 20);
+}

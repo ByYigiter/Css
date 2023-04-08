@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 25px;
+   
+}
+
+.container div:nth-child(1){
+    background-color: aquamarine;
+    flex:1 0 250px;
+    /* 1. degerde oran mantığı vardır
+     1 + 2+ 4 =7 olur bu 1/7 kadar yer kaplar */
+}
+.container div:nth-child(2){
+    background-color: rgb(24, 57, 46);
+}
+.container div:nth-child(3){
+    background-color: rgb(76, 41, 201);
+}
+.container div:nth-child(4){
+    background-color: rgb(209, 41, 80);
+
+    /*2/7 kadar yer kaplar*/
+}
+.container div:nth-child(5){
+    background-color: rgb(169, 227, 20);
+
+}
