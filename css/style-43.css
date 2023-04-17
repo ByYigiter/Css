@@ -1,0 +1,103 @@
+:root{
+    --color1:crimson;
+    --color2:#fbb040;
+    --color3:gray;
+
+}
+
+body{
+    font-family: 'Nunito';
+    margin: 0;
+}
+section.topbar{
+    
+   background-color: var(--color3);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+   color: white;
+}
+
+section.menubar ul,
+section.topbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+section.topbar ul a{
+color:var(--color2);
+text-decoration: none;
+
+}
+section.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+section.menubar img{
+    width: 300px;
+    height: auto;
+}
+
+section.menubar ul a{
+    text-decoration: none;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+section.menubar ul a:hover{
+    background-color: var(--color1);
+}
+
+section.slider{
+
+background-image: url("../img/nature.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 400px;
+position: relative;
+
+}
+
+section.slider h2{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0 0 10px wheat;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+
+

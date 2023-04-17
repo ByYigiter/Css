@@ -1,0 +1,57 @@
+html,body{
+height: 100%;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.box1{
+    background-color: yellowgreen;
+    flex: 2 0 200px;
+    /*flex body den gelen ayarlama için*/
+    padding: 10px;
+    display: flex;
+    /*bu child lara flex kullanmak için*/
+    flex-direction: column;
+    
+}
+.box1 div{
+    margin: 10px;
+}
+
+.box1-1{
+    background-color:yellow ;
+    flex: 2;
+    
+}
+
+.box1-2{
+    background-color:green ;
+    flex: 5;
+}
+
+.box2{
+    background-color: rgb(205, 50, 50);
+    flex: 1 0 100px; 
+}
+.box3{
+    background-color: rgb(50, 60, 205);
+    flex: 2 0 200px; 
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
+}
+.box3 div{
+    margin: 15px;
+}
+
+.box3>div{
+    background-color: blueviolet;
+    flex: 0 0 30px;
+    padding:25px
+}

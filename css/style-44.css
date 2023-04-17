@@ -1,0 +1,17 @@
+.box{
+    width:200px;
+    height: 200px;
+    background-color: red;
+     /*
+    transform: translatex(50%);
+    transform: translatey(50%);*/
+    transform: translate(50%, 100px);
+   
+}
+
+.i-phone{
+    transform: rotate(35deg);
+
+    /* transform: scale(2) rotate(35deg);; */
+}
+

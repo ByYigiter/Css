@@ -1,0 +1,65 @@
+.box{
+   height: 100px;
+   width: 100px;
+}   
+.box1{
+    position: relative;
+    left: 25px;
+    top: 20px;
+    background-image: linear-gradient(green, blue);
+}   
+.box2{
+    position: static;
+    left: 50px;
+    top: 20px;
+    background-image: linear-gradient(red, yellow, black);
+}   
+.box3{
+    position: relative;
+    top: 100px;
+    left:100px;
+    background-image: linear-gradient(to right, orange, green);
+}  
+.box4{
+    position: relative;
+    top: 75px;
+    left:75px;
+    background-image: linear-gradient(to right, orange, green);
+} 
+
+.parent{
+    height: 50vh;
+    background-color: aqua;
+    position: relative;
+}
+/*
+.parent img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    left: 400px;
+    top: 200px;
+}
+*/
+
+.parent img{
+    width: 50px;
+    height: auto;
+    /* parentan ayrıldı farklı katman html egore  ayarlar
+    cunku parent static diye parent kabul etmez*/
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+
+
+.parent img{
+    width: 50px;
+    height: auto;
+    
+    position: absolute;
+    left: 40px;
+    top: 0px;
+}
+
+

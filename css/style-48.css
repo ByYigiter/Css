@@ -1,0 +1,31 @@
+
+body{
+    padding:  50px;
+}
+
+.boxes{
+
+    display: flex;
+    justify-content: space-between;
+}
+.boxes div{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+
+}
+
+.boxes div:first-child{
+    box-shadow:0  5px  14px ;
+    
+}
+
+.boxes div:nth-child(2){
+    box-shadow: 0px 20px 60px -25px red;
+}
+
+.boxes div:last-child{
+    box-shadow: 0 0 15px orange;
+}

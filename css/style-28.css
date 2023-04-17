@@ -1,0 +1,10 @@
+.menu{
+    list-style-type: none;
+}
+.menu li::before{
+    font: var(--fa-font-solid);
+    content: "\f30b";
+    font-size: 0.5rem;
+    margin-right: 10px;
+    color: rgb(246, 12, 12);
+}
