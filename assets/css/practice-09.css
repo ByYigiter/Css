@@ -1,0 +1,38 @@
+body{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+h1{
+    background-color: green;
+    border-radius: 20px;
+    padding: 0.6;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+div.icerik{
+    background-color: beige;
+    border-radius: 20px;
+    border: 5px solid rgb(166, 160, 160);
+}
+
+img{
+    border-radius: 20px;
+    border:3px solid rgb(174, 166, 166)
+}
+.icerik a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.icerik p{
+    font-size: large;
+    
+}
+h2{
+    font-style: italic;
+}

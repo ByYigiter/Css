@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+    font-family: Roboto;
+    padding: 2rem;;
+}
+
+section.container{
+    text-align: center;
+
+}
+
+section.container div.cards{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.container div.cards div{
+
+    width: 30%;
+    padding: 0.5rem;
+
+    border: 3px solid grey;
+}
+
+
+.baslik{
+    position: relative;
+}
+
+.baslik span{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /* top: 20%;
+    left: 20%;
+    right: 20%; transform olmadan manuel olarak */
+    opacity: 0.3;
+    color:rgb(172,64,137);
+}
+
+
+
+
+
